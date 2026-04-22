@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react"
 import { motion, useScroll, useTransform, useSpring } from "framer-motion"
 
-const FRAME_COUNT = 192
+const FRAME_COUNT = 4
 const IMAGE_PATH = "/frames/"
 
 function getFramePath(index: number): string {
